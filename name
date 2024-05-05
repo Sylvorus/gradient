@@ -1,0 +1,40 @@
+/**
+ * @name name gradient woop woop!!!
+ * @author pierre
+ * @description gives ur username a fancy gradient
+ * @version 0.0.0
+*/
+.avatar__08316[src*="486463991586095104"] ~ h3 .username__0b0e7,
+.avatar__6337f:has(.avatar__991e2[src*="486463991586095104"]) + .content_e8a0d1 .username_d272d6,
+.avatarWrapper__0cd44:has(.avatar__991e2[src*="486463991586095104"]) ~ div.overlayBackground__345c9 .userText_c26b46 > h1,
+.topSection__2d8b8:has(.avatar__991e2[src*="486463991586095104"]) ~ div.overlayBackground__345c9 .container__9f51c > div:not(.pronouns__3d468) > div {
+  color: transparent !important;
+  font-weight: bold;
+  background-size: 300%;
+  -webkit-background-clip: text;
+  animation: shine 5s linear infinite;
+  background-image: linear-gradient(0deg, rgba(45,37,80,1) 0%, rgba(165,152,207,1) 100%);
+}
+
+.avatar__08316[src*="1109386816169201724"] ~ h3 .username__0b0e7,
+.avatar__6337f:has(.avatar__991e2[src*="1109386816169201724"]) + .content_e8a0d1 .username_d272d6,
+.avatarWrapper__0cd44:has(.avatar__991e2[src*="1109386816169201724"]) ~ div.overlayBackground__345c9 .userText_c26b46 > h1,
+.topSection__2d8b8:has(.avatar__991e2[src*="1109386816169201724"]) ~ div.overlayBackground__345c9 .container__9f51c > div:not(.pronouns__3d468) > div {
+  color: transparent !important;
+  font-weight: bold;
+  background-size: 300%;
+  -webkit-background-clip: text;
+  animation: shine 5s linear infinite;
+  background-image: linear-gradient(0deg, rgba(255,171,198,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+@keyframes shine {
+  to {
+    background-position: 300% center;
+  }
+}
+@keyframes shine-reversed {
+  to {
+    background-position: -300% center;
+  }
+}
